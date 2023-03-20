@@ -4,13 +4,23 @@
 ----------------------------
 
 Esquemas de telas: até 600px
-Celular: de 600px até 768px
+Celular: de 320px até 768px
 Tablet: 768px até 992px
 Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-@media screen  and (min-width: 768px) and (max-width: 992px) {
+/* Typical Device Breakpoint 2022
+----------------------------
+
+Esquemas de telas: até 600px
+Celular: de 320px até 480px
+Tablet: 481px até 768px
+Desktop: 1025px até 1200px
+Grandes telas: acima de 1201px
+*/
+
+@media screen  and (min-width: 481px) and (max-width: 768px) {
 
 
     /*Configuração para tablet*/
@@ -37,7 +47,7 @@ Grandes telas: acima de 1200px
     }
 }
 
-    @media screen and (min-width: 992px) {/*Configurações para Desktop*/
+    @media screen and (min-width: 1025px) {/*Configurações para Desktop*/
 
         body {
             background-image: linear-gradient(to top, #49a09d, #5f2c82);
