@@ -91,7 +91,7 @@ div.campo > span {
 div.campo > input {
     background-color: #a6c4c9;
     font-size: 1em;
-    width: calc(100% - 44px);
+    width: calc(100% - 45px);
     height: 100%;
     transform: translateY(-12px);
     border: 0px;
